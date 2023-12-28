@@ -1,0 +1,40 @@
+The design choices for the quiz application are as follows:
+
+1.Class Structure:
+   - The decision to encapsulate the quiz functionality within a class, named `QuizGame`, enhances modularity and facilitates easy reuse and extension.
+
+2.Question Representation:
+   - Questions are represented as tuples, including the question itself, a list of options, and the index of the correct answer within the options list.
+
+3.User Interaction:
+   - User interaction is achieved using the `input()` function, allowing users to select an option by entering the corresponding number.
+
+4.Scoring:
+   - A straightforward scoring system awards a point for each correct answer, and the final score is displayed at the end of the quiz.
+
+5.Adjustment for Zero-based Index:
+   - To accommodate zero-based indexing in programming languages, user answers are adjusted by subtracting 1 before comparison with the correct answer index.
+
+The features of the quiz application include:
+
+1.Question Display:
+   - The `display_question` method effectively presents each question and its multiple-choice options.
+
+2.Answer Checking:
+   - The `check_answer` method compares the user's answer with the correct answer, providing instant feedback.
+
+3.Quiz Execution:
+   - The `run_quiz` method oversees the quiz, guiding through each question, collecting user input, and updating the score.
+
+Challenges encountered during development include:
+
+1.User Input Handling:
+   - Managing user input, particularly ensuring its validity and adjusting for zero-based indexing, presented challenges. Implementing input validation techniques would enhance the quiz's robustness.
+
+2.Scalability:
+   - The current implementation assumes a fixed number of questions, and future improvements could involve adapting the design to handle a dynamic number of questions or integrating external question sources.
+
+3.GUI vs. Command Line:
+   - Choosing a command-line interface simplifies implementation but may limit the user experience. Exploring GUI frameworks like Tkinter could enhance the visual appeal of the quiz.
+
+In summary, the design emphasizes simplicity and modularity, making the quiz application easy to understand and extend. Potential enhancements include improved input validation, support for dynamic question sets, and exploration of a more interactive user interface.
