@@ -1,0 +1,31 @@
+Design Choices:
+
+Tkinter GUI Framework: Utilized Tkinter, a standard Python GUI framework, for simplicity and ease of implementation. Tkinter provides a straightforward way to create GUI applications.
+
+Separation of Concerns: Organized the code into functions (count_words and on_submit) to enhance readability, maintainability, and adhere to the principle of separation of concerns. This allows for easy modification and debugging.
+
+Error Handling: Implemented error handling to address potential issues with empty input. The count_words function checks if the input is empty and returns 0 to handle such cases gracefully.
+
+User-Friendly Interface: Designed a clear and user-friendly interface with a labeled entry field, a submit button, and a label to display the word count result. This makes it intuitive for users to interact with the application.
+
+Challenges:
+
+Integration of Regex: Using regular expressions for word counting may be challenging for those unfamiliar with regex. However, it was chosen for its efficiency in extracting words.
+
+Limited Styling: Tkinter provides basic styling options. If a more sophisticated and visually appealing design is desired, an alternative GUI framework or additional styling tools may be explored.
+
+Features:
+
+Word Counting Functionality: The core feature is the ability to count words in the user-inputted text using the count_words function.
+
+User Interaction: The GUI allows users to input text, submit it, and view the word count result, enhancing the overall user experience.
+
+Error Handling: The code accounts for potential errors, such as empty input, ensuring a robust and user-friendly application.
+
+Enhancements:
+
+Scalability: The code can be extended to handle more complex text analysis tasks or incorporate additional features like character counting, sentence analysis, etc.
+
+Styling Improvements: Explore additional styling options or consider using external tools for more sophisticated GUI designs.
+
+Documentation: Add inline comments or external documentation to guide future developers or collaborators in understanding the code.
