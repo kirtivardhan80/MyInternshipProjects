@@ -1,5 +1,5 @@
 ## Project1
-```markdown
+
 # 📝 Word Counter GUI Application
 
 A simple and user-friendly Python application that counts the number of words in a given input using a Tkinter-based GUI.
