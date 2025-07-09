@@ -1,3 +1,4 @@
+## Project1
 ```markdown
 # 📝 Word Counter GUI Application
 
@@ -92,7 +93,93 @@ python word_counter_gui.py
 
 ---
 
-## 📚 License
+
+
+## Project2
+```
+# 📝 Word Counter – Tkinter GUI Application
+
+A simple desktop application built using Python and Tkinter that allows users to input text and view the word count with a click.
+
+---
+
+## 📐 Design Choices
+
+### 🧱 Tkinter GUI Framework
+Used Tkinter, a built-in Python GUI library, for simplicity and ease of deployment. It offers a straightforward and lightweight interface ideal for small applications.
+
+### 📚 Separation of Concerns
+The code is modular, with functions like:
+- `count_words()`: Logic to count words using regex.
+- `on_submit()`: Handles user input submission and updates UI.
+
+This structure improves maintainability and makes future updates easier.
+
+### 🚫 Error Handling
+Handled empty input gracefully. The application returns a word count of 0 if no text is provided.
+
+### 🎯 User-Friendly Interface
+Designed a clean and intuitive interface with:
+- A text entry field
+- A submit button
+- A result label displaying word count
+
+---
+
+## 🧩 Challenges
+
+- 🔠 Regular Expressions: Regex was used for efficient word matching. While powerful, it may be tricky for beginners to understand and maintain.
+- 🎨 Styling Limitations: Tkinter supports only basic styling. Advanced UI features may require customTkinter, PyQt, or Kivy.
+
+---
+
+## 🚀 Features
+
+- ✅ Real-time word counting
+- 🖱️ Interactive GUI with input and result display
+- 🔄 Robust error handling for empty input
+
+---
+
+## ✨ Possible Enhancements
+
+- 📏 Character and sentence counters
+- 🌍 Support for text from external files or URLs
+- 🧪 Real-time analysis as the user types
+- 🎨 Improved styling with themed widgets or alternative frameworks
+- 📘 Code documentation with inline comments and dev instructions
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3.x
+- Tkinter
+- Regular Expressions (`re` module)
+
+---
+
+## ▶️ Usage
+
+1. Clone or download the repository.
+2. Run the script using:
+
+```bash
+python word_counter_gui.py
+```
+
+3. Enter text in the GUI window and click "Submit" to view the word count.
+
+---
+
+## 🧠 Example
+
+> Input: “Hello world! This is a test.”  
+> Output: Word Count: 6
+
+---
+
+## 📄 License
 
 This project is licensed under the MIT License.
 
@@ -101,8 +188,6 @@ This project is licensed under the MIT License.
 ## 📬 Contact
 
 Made with ❤️ by Kirti Vardhan Singh  
-📧 Email: kirtivardhan7549@gmail.com  
-🌐 GitHub: [github.com/kirtivardhan80](https://github.com/kirtivardhan80)
+📧 Email: kirtivardhan7549@gmail.com
 
-```
 
